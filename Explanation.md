@@ -1,3 +1,3 @@
-17.10 - 24 exercices done
-18.10 - 24 exercices done
-19.10 - 2 exercices done
+17.10 - 24 exercices done (arrays)
+18.10 - 24 exercices done (objects)
+19.10 - 36 exercices done (conditions + variables + operators)
