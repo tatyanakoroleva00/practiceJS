@@ -1,3 +1,4 @@
 17.10 - 24 exercices done (arrays)
 18.10 - 24 exercices done (objects)
-19.10 - 36 exercices done (conditions + variables + operators)
+19.10 - 36 exercices done (conditions + variables + operators) + git functioning 
+20.10 - 54 exercices done (variables, operators, booleans, operations, decrement and increments) + branch merging with the main, branch deleted + VsCode funtioning + LivePort (HTML/JS docs)
