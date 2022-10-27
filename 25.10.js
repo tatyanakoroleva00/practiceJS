@@ -221,3 +221,6 @@ for (let i = 1; i < 100; i++) {
     }
     console.log(sum);
 } */
+
+let a = prompt('how are you doing?');
+alert(a);

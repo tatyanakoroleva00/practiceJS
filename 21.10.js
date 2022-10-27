@@ -9,10 +9,10 @@ console.log(arr[1]);
 console.log(arr[2]); */
 
         // 3. Array, output of elements to the screen
-/* let arr = [1, 2, 3];
+let arr = [1, 2, 3];
 alert(arr[0]);
 alert(arr[1]);
-alert(arr[2]); */
+alert(arr[2]);
 
         // 4. Array sum of numbers
 /* let arr = [1, 2, 3];
