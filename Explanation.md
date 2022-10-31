@@ -7,3 +7,4 @@
 25.10 - 26 exercices done. cycles, conditions (if, else), break, iteration
 26.10 - 17 exercices done, cycles, flags, elements research and output in console; finding if an element is absent or not; changing arrays and objects; filling an empty array and object with new data; push method;
 28.10 - 64 exercices done, a lot of practice, arrays, objects, filling in. Done with arrays and objects.
+29.10 - 12 exercices done, arrays, Multidimensional arrays, enumeration
