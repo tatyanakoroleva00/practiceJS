@@ -13,3 +13,4 @@ I've started with arrays then returned back to the beginning and then continued 
 28.10 - 64 exercices done, a lot of practice, arrays, objects, filling in. Done with arrays and objects.
 29.10 - 12 exercices done, arrays, Multidimensional arrays, enumeration
 31.10 - 8 exercices done, arrays and objects, searching through, enumeration
+06.11 - 19 exercices done + made up some for myself, finished with arrays and objects, multidimensional, pushing
