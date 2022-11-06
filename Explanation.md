@@ -1,3 +1,7 @@
+I study JS with the site code.mu. The author is Trepachyov Dmitry. 
+This is the progress that I have already made. 
+I've started with arrays then returned back to the beginning and then continued with arrays. Days 17, 18 - (returned back Days 19) - continued up to arrays. Some exercices, which I find to be easy or repetitive, are not included here. However, you can find the answers to nearly all of the tasks. 
+
 17.10 - 24 exercices done (arrays)
 18.10 - 24 exercices done (objects)
 19.10 - 36 exercices done (conditions + variables + operators) + git functioning 
