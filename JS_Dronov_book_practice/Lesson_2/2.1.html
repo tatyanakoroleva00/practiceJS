@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2.1.Html</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
+<h1>Пересчет велечин</h1>
+
+<script type="text/javascript">
+  let ins = prompt('Величина в дюймах', 0);
+  ins = ins.replace(',', '.');
+
+  if (ins == null) {
+    document.write('<p>Величина не была введена' + '</p>');
+  } else {
+      let s;
+
+      switch(Math.floor(ins)) {
+          case 1:
+              s = 'дюйм';
+              break;
+          case 2:
+          case 3:
+          case 4:
+              s = 'дюйма';
+              break;
+          default: 
+              s = 'дюймов';
+      }
+   
+    document.write('<p>', ins, ' ',s , '</p>');
+
+    const cents = ins * 2.54;
+    document.write('<p>', cents +' '+'cм.', '</p>');
+  } 
+</script>
+</body>
+</html>

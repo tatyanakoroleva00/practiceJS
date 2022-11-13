@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+</head>
+<body>
+    <!--  TASK 1: CircleSquare calculation
+
+    <script type="text/javascript">
+        function circleSquare(d) {
+            return sq = Math.pow(d / 2, 2) * Math.PI;
+        }
+        circleSquare(10);
+        document.write('<p>', sq, '</p>');
+        circleSquare(20);
+        document.write('<p>', sq, '</p>');
+        circleSquare(35);
+        document.write('<p>', sq, '</p>');
+    </script>
+    -->
+    <!--
+    <script> /*Not to count 'strings'; to find the average number sum / count */
+        function average() {
+            let count = 0, sum = 0, i, el;
+            const cntAll = arguments.length;
+            for (i = 0; i < cntAll; i++) {
+                el = arguments[i];
+                if(typeof el == 'number') {
+                    count++;
+                    sum += el;
+                }
+            }
+            return result = sum / count;
+        }
+        average(10, 20, 30, 40, 50, 60, 70, 80, 90, 100);
+        document.write('<p>', result, '</p>');
+        average(10, '20', 30, '40', 50, '60', 70, '80', 90, '100');
+        document.write('<p>', result, '</p>');
+
+    </script>
+    -->
+
+    <script type="text/javascript">
+        function average2() {
+            const cntAll = arguments.length;
+            let count = 0, sum = 0;
+            let i, el, j, el2;
+                for (i = 0; i < cntAll; i++) {
+                    el = arguments[i];
+                        switch(typeof el) {
+                            case 'number':
+                                sum += el;
+                                count++;
+                                break;
+                            case 'object':
+                                for (j = 0; j < el.length; j++) {
+                                    el2 = el[j];
+                                    if(typeof el2 == 'number') {
+                                        sum += el2;
+                                        count++;
+                                    }
+                                }
+                        }
+                }
+            return sum / count;
+        }
+        let av = average2([10, 20], 30, [40, 50], 60, [70, 80, 90, 100]);
+            window.document.write('<p>', av, '</p>');
+            av = average2('[10, 20]', 30, [40, '50'], 60,
+                ['70, 80', 90, 100]);
+            window.document.write('<p>', av, '</p>');
+    </script>
+
+</body>
+</html>

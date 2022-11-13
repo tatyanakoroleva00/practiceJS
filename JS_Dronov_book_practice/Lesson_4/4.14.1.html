@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4.14.html</title>
+</head>
+<body>
+    <script type="text/javascript">
+        const s = prompt('Enter a list of numbers', '1, 4, 6');
+        const cs = s.split(', ');
+        /* let cs = [];
+        cs.push(s); */
+        let sum = 0;
+        cs.forEach((el) => {
+            sum += +el;
+        });
+        const avg = sum / cs.length; 
+        document.write(avg);
+    </script>
+</body>
+</html>

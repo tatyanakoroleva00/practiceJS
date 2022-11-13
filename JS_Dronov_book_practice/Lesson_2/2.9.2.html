@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 2.9.2.html</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Среднее арифметическое</h1>
+        <p>
+            <script type="text/javascript">
+                let i; let count = 0; let sum = 0;
+                while(true) {
+                    i = +window.prompt('Enter your number', 0);
+                        if (i == 0) {
+                            break;
+                        } else {
+                            ++count;
+                            sum += i;
+                            }
+                        }
+                            sum /= count;
+                            window.document.write('Среднее арифметическое: ', sum);
+                
+            </script>
+        </p>
+    </body>
+</html>

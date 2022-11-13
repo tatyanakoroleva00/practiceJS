@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3.11.3.html Practice</title>
+</head>
+<body>
+    <h1>Average Modification doc 3.11.2</h1>
+    <script type="text/javascript">
+        function average2 () {
+            const cntAll = arguments.length;
+            let sum = 0, cnt = 0, el, el2, i, j;
+            for (i = 0; i < cntAll; i++) {
+                el = arguments[i];
+                switch(typeof el) {
+                    case 'number':
+                        sum += el;
+                        cnt ++; 
+                        break;
+                    case 'object':
+                        for (j = 0; j < el.length; j++) {
+                            el2 = el[j];
+                            if (typeof el2 == 'number') {
+                                sum += el2;
+                                cnt ++;
+                            }
+                        }
+                }
+            } return sum / cnt;
+        }
+    
+    let av = average2([10, 20], 30, [40, 50], 60, [70, 80, 90, 100]);
+    window.document.write('<p>', av, '</p>');
+    av = average2('[10, 20]', 30, [40, '50'], 60,
+        ['70, 80', 90, 100]);
+    window.document.write('<p>', av, '</p>');
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Факториал</title>
+    </head>
+    <body>
+        <h1>Факториал</h1>
+        <script type="text/javascript">
+            function factorial(val) {
+                if (val == 1) {
+                    return 1;
+                }
+                else {
+                    return val * factorial(val - 1);
+            }
+            const a = window.prompt('Enter a number', 1);
+            window.document.write('<p>', factorial(a), '</p>');
+            
+        </script>
+    </body>
+</html>
