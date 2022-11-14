@@ -7,6 +7,27 @@
     <title>4.14.4 page</title>
 </head>
 <body>
+    <script type = 'text/javascript'>
+        let a = prompt('Numbers', '');
+        let arr = a.split(',');
+        let even = [];
+        let odd = [];
+        arr.forEach((el) => {
+            let e = +el;
+            if (e % 2 == 0 && e != 0) {
+                even.push(e);
+            } else {
+                odd.push(e);
+            }
+        })
+        let newArr = [];
+        newArr.push(even.sort());
+        newArr.push(odd.sort());
+        document.write(newArr);
+
+        
+
+    </script>
     
 </body>
 </html>

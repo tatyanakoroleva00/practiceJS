@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3.11.2.html</title>
+</head>
+<body>
+    <h1>Среднее арифметическое</h1>
+    <script type="text/javascript">
+        function average() {
+            const cntAll = arguments.length;
+            let sum = 0, count = 0, el, i;
+            for (i = 0; i < cntAll; i++) {
+                el = arguments[i];
+                if (typeof el == 'number') {
+                sum += el;
+                count++;
+                }
+            }
+            if (count == 0) {
+                const ex = new TypeError();
+                ex.message = 'No parameters';
+                throw ex;
+            }
+            return sum / count;
+        }
+        try {
+            const av = average(10, 20, 30, 40, 50, 60, 70, 80, 90, 100);
+            window.document.write('<p>', av, '</p>');
+        }
+        catch(ex) {
+            window.document.write('<p>', ex.message, '</p>');
+        }
+        try {
+            const av = average('10', '20', '30', '40', '50', '60', '70',
+                '80', '90', '100');
+            window.document.write('<p>', av, '</p>');
+        }
+        catch(ex) {
+            window.document.write('<p>', ex.message, '</p>');
+        }
+        try {
+            const av = average();
+            window.document.write('<p>', av, '</p>');
+        }
+        catch(ex) {
+            window.document.write('<p>', ex.message, '</p>');
+        }
+    </script>
+</body>
+</html>

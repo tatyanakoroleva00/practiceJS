@@ -6,15 +6,17 @@
 <body>
     <script type="text/javascript">
         const s = prompt('Enter a list of numbers', '1, 4, 6');
-        const cs = s.split(', ');
-        /* let cs = [];
-        cs.push(s); */
-        let sum = 0;
-        cs.forEach((el) => {
-            sum += +el;
-        });
-        const avg = sum / cs.length; 
-        document.write(avg);
+
+        try {
+            const cs = s.split(', ');
+            let sum = 0;
+            cs.forEach((el) => {sum += +el;});
+            const avg = sum / cs.length; 
+            document.write(avg);
+        }
+        catch (ex) {
+            document.write('Была нажата кнопка отмены');
+        }
     </script>
 </body>
 </html>
