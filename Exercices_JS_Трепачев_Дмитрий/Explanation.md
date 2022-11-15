@@ -15,3 +15,5 @@ I've started with arrays then returned back to the beginning and then continued 
 31.10 - 8 exercices done, arrays and objects, searching through, enumeration
 06.11 - 19 exercices done + made up some for myself, finished with arrays and objects, multidimensional, pushing
 07.11 - 7 exercices, my own practice of arrays, objects & alert, prompt, confirm messages
+14.11 - 11 exercices, math methods
+15.11 - 13 exercicies, string methods

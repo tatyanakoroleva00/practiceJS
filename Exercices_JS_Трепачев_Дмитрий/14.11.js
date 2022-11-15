@@ -1,3 +1,14 @@
+/*      Practice
+let j = 1;
+while (j < 7) {
+    for (let k = 1; k < j; k++) {
+        document.write('*');
+    } 
+    document.write('<br>');
+    j++;
+}
+ */
+
 /*     1. 
 let a = Math.pow(2, 10);
 console.log(a);
