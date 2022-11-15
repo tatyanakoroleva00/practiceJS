@@ -2,6 +2,8 @@ I study JS with the site code.mu. The author is Trepachyov Dmitry.
 This is the progress that I have already made. 
 I've started with arrays then returned back to the beginning and then continued with arrays. Days 17, 18 - (returned back Days 19) - continued up to arrays. Some exercices, which I find to be easy or repetitive, are not included here. However, you can find the answers to nearly all of the tasks. 
 
+October 2022:
+
 17.10 - 24 exercices done (arrays)
 18.10 - 24 exercices done (objects)
 19.10 - 36 exercices done (conditions + variables + operators) + git functioning 
@@ -13,6 +15,9 @@ I've started with arrays then returned back to the beginning and then continued 
 28.10 - 64 exercices done, a lot of practice, arrays, objects, filling in. Done with arrays and objects.
 29.10 - 12 exercices done, arrays, Multidimensional arrays, enumeration
 31.10 - 8 exercices done, arrays and objects, searching through, enumeration
+
+November 2022:
+
 06.11 - 19 exercices done + made up some for myself, finished with arrays and objects, multidimensional, pushing
 07.11 - 7 exercices, my own practice of arrays, objects & alert, prompt, confirm messages
 14.11 - 11 exercices, math methods
