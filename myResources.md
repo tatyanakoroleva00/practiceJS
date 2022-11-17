@@ -13,3 +13,7 @@ Books/Sources that I use:
 3. Web на практике CSS, HTML, JS... Авторы: Кириченко А.В., Никольский А.П., Дубовик Е.В.
 4. HTML, CSS. && JS (20 уроков для начинающих). Автор: В.Дронов
 5. Code.mu - Д.Трепачев. https://code.mu/ru/javascript/book/prime/ (JavaScript - упражнения)
+6. https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript FREECODECAMP.org site with free exercices
+7. www.codewars.com Games, practice, coding
+8. https://learn.javascript.ru/ E-book JS with practice
+
