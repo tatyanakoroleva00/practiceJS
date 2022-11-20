@@ -18,3 +18,18 @@ Level: 8k
 16. Remove string spaces
 17. Grasshopper - Summation
 18. Counting sheep...
+19. Century From Year
+20. Basic Mathematical Operations
+21. Abbreviate a Two Word Name
+22. Transportation on vacation
+23. Keep Hydrated!
+24. Is n divisible by x and y?
+25. Convert number to reversed array of digits
+26. Convert a String to a Number!
+27. Beginner - Lost Without a Map
+28. A Needle in the Haystack
+29. Returning Strings
+30. Function 1 - hello world
+31. Beginner Series #2 Clock
+32. Count of positives / sum of negatives
+33. Convert a Boolean to a String
