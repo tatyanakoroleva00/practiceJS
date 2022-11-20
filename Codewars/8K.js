@@ -87,12 +87,12 @@ let str = '';
 }
  */
 
-/*     10. Alternative way to write
+/*     9.2 Alternative way to write
 String.prototype.toAlternatingCase = function () {
     return this.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('')
 } */
 
-/*     11. Return negative (3 variants)
+/*     10. Return negative (3 variants)
 function makeNegative(num) {
 if (num > 0) return -num;
 else return num;
@@ -104,14 +104,253 @@ function makeNegative(num) {
 return num > 0 ? -num : num;
 } */
 
- /*    12. Reverse the string
+ /*    11. Reverse the string
 function solution(str) {
     return str.split('').reverse().join('');
 } */
 
-/*     13. Convert boolean values to strings 'Yes' or 'No'.
+/*     12. Convert boolean values to strings 'Yes' or 'No'.
 function boolToWord( bool ){
     return bool !== true ? 'No' : 'Yes';
   } */
 
+  /*   13. Remove First and Last Character
+
+function removeChar(str){
+    let arr = str.split("");
+        let result = "";
+    for(let i = 1; i < arr.length - 1; i++)
+        {
+        result += arr[i];
+        }
+    
+        return result;
+    };
+        */
+
+/*     13.2 
+return str.slice(1, -1);
+ */
+/*     14. Repeat Method
+function repeatStr (n, s) {
+return s.repeat(n)
+} */    
+/*     14.2
+repeatStr = (n, s) => s.repeat(n) */
+
+/*     15. Math.pow(x, 2)
+function squareSum(numbers){
+let result = 0;
+numbers.forEach((element) => {
+    result += Math.pow(element, 2);
+})
+return result
+} */
+
+/* 16. Remove string spaces
+function noSpace(x){
+return x.split(' ').join('');
+} */
+
+/* 18. Grasshopper - Summation
+var summation = function (num) {
+let sum = 0;
+for (let i = num; i > 0; i--) {
+sum += i; 
+}
+return sum
+} */
+
+/*     18. Counting sheep...
+function countSheeps(arrayOfSheep) {
+    let count = 0; 
+    arrayOfSheep.forEach((element) => {
+        if (element === true) count++;
+    })
+    return count
+    } */
+
+/*     18.2 Very smart answer found
+function countSheeps(arrayOfSheeps) {
+return arrayOfSheeps.filter(Boolean).length;
+} */   
+
+       /*  19.1 Century From Year
+
+let year = 210; 
+if (year <= 100) console.log(1);
+else if (year % 100 === 0 && year < 1000) console.log(String(year)[0]) ;
+else if (year % 100 === 0 && year >= 1000) console.log(String(year).slice(0,-2));
+else {
+    if (String(year).length === 3) {
+        console.log(+String(year)[0] + 1);
+    } else {
+        console.log(+String(year).slice(0, -2) + 1);
+    }
+}
+  */
+
+/*         19.2 Century From Year
+
+if (year <= 100) return 1;
+else if (year % 100 === 0 && year < 1000) return (+String(year)[0]) ;
+else if (year % 100 === 0 && year >= 1000) return (+String(year).slice(0,-2));
+else {
+    if (String(year).length === 3) {
+        return (+String(year)[0] + 1);
+    } else {
+       return (+String(year).slice(0, -2) + 1);
+    }
+} */
+
+/*         19.3 Century From Year / Smart and easy answer found. 
+const century = year => Math.ceil(year/100);
+ */
+
+/*         20. Basic Mathematical Operations
+function basicOp(operation, value1, value2)
+{
+    if(operation == '+')return value1 + value2;
+    if(operation == '-')return value1 - value2;
+    if(operation == '*')return value1 * value2;
+    if(operation == '/')return value1 / value2;
+}
+ */
+/*         20.1. Smart response found !
+function basicOp(o, a, b) {
+    return eval(a+o+b);
+} */
+/*         21. Abbreviate a Two Word Name
+function abbrevName(name){
+    let arr = name.split(' ');
+    return (arr[0][0] + '.' + arr[1][0]).toUpperCase()
+}
+
+/*         22. Transportation on vacation
+function rentalCarCost(days) {
+  // Your solution here
+  const costPerDay = 40;
   
+  const discount = days >= 7 
+  ? 50 
+  : (days >= 3 && days < 7) 
+  ? 20 
+  : 0;
+  return days * costPerDay - discount;
+} */
+
+   /*      23. Keep Hydrated!
+function litres(time) {
+let result = time * 0.5; 
+    return Math.floor(result);
+} */
+
+/*     Shorter version...
+function litres(time) {
+    return Math.floor(time * 0.5);
+} */
+/* 
+        24. Is n divisible by x and y?
+function isDivisible(n, x, y) {
+    return (n % x === 0 && n % y === 0) 
+    ? true
+    : false
+  } */
+
+/*   / Another short version found
+function isDivisible(n, x, y) {
+return n % x === 0 && n % y === 0
+} */
+
+/*    25. Convert number to reversed array of digits
+function digitize(n) {
+  let str = String(n);
+  let arrOfStr = [...str];
+  let arrOfNum = arrOfStr.map(str => {
+    return Number(str);
+  })
+  return arrOfNum.reverse();
+}
+ */
+/* function digitize(n) {
+  return String(n).split('').map(Number).reverse()
+} */
+
+/*         26. Convert a String to a Number!
+const stringToNumber = function(str){
+return +str
+} */
+
+ /*        27. Beginner - Lost Without a Map
+
+function maps(x){
+let newArr = [];
+let arr = x.forEach((el) => {
+    el = el * 2;
+    newArr.push(el);
+})
+return newArr
+} */
+
+        // +1 solution, easier, faster
+/* function maps(x){
+return x.map(a => a * 2)
+} */
+
+/*     28. A Needle in the Haystack
+function findNeedle(haystack) {
+    let needle = haystack.indexOf('needle');
+    return ("found the needle at position " + needle)
+} */
+
+   /*  29. Returning Strings
+function greet(name){
+    return `Hello, ${name} how are you doing today?`;
+    }
+ */
+
+/*     30. Function 1 - hello world
+function greet() {
+return "hello world!"
+} */
+/*       31. Beginner Series #2 Clock
+function past(h, m, s){
+let mins = h * 60 + m; 
+let secs = mins * 60 + s;
+    return ms = secs * 1000
+} */
+
+   /*  32. Count of positives / sum of negatives
+
+function countPositivesSumNegatives(input) {
+    
+    //Return an empty array
+    let arr = [];
+      if (input === [] || input === null) {
+        return arr;
+      }
+    //Count the positives and the sum of negatives 
+    let count = 0, sum = 0;
+      
+      for (let i = 0; i < input.length; i++) {
+        if (input[i] > 0) {
+          count++;
+        } else if (input[i] < 0) {
+          sum += input[i];
+        } else {
+        }
+      } 
+      
+      //Return the results
+      if (sum === 0 && count === 0) {
+        return arr;
+      } else {
+        arr.push(count);
+        arr.push(sum);
+        return arr
+      } */
+
+/* 33. Convert a Boolean to a String
+function booleanToString(b){
+    return String(b)
+  } */
