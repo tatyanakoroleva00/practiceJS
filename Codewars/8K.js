@@ -354,3 +354,136 @@ function countPositivesSumNegatives(input) {
 function booleanToString(b){
     return String(b)
   } */
+
+/*   34. Beginner Series #1 School Paperwork
+function paperwork(n, m) {
+if (n < 0 || m < 0) return 0;
+return m * n
+} */
+  
+/*     35. Invert values
+function invert(array) {
+    return array.map(e => -e)
+} */
+
+/*         36. You only need one - Beginner
+function check(a, x) {
+    return a.includes(x)
+    } */
+
+/*     37. Fake Binary
+function fakeBin(x){
+let arr = x.split('');
+
+let str = '';
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < 5) str += 0;
+    else str += 1;
+} return (str);
+} */
+   /*      2. variant
+function fakeBin(x) {
+    return x.split('').map(n => n < 5 ? 0 : 1).join('');
+} */
+
+   /*  38. How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+    classPoints.push(yourPoints);
+    let avg = classPoints.reduce((a, b) => (a + b)) / classPoints.length;
+    return (yourPoints > avg ? true : false)
+}  */
+
+   /*  39. Are You Playing Banjo?
+function areYouPlayingBanjo(name) {
+return (name[0] === 'R' || name [0] === 'r') ? 
+    name + " plays banjo" : name + " does not play banjo"
+} */
+
+/*     40. Reversed sequence
+const reverseSeq = n => {
+let arr = [];
+for (let i = n; i > 0; i--) {
+    arr.push(i);
+} return arr
+}; */
+
+/*     41. Sum Arrays
+function sum (numbers) {
+"use strict";
+
+if (numbers.join() === '') return 0;
+else {
+return numbers.reduce((sum, el) => sum + el)
+}
+}; */
+
+/*         // super fast solution found
+function sum(numbers) {
+return numbers.reduce((a, b) => a + b, 0);
+} */
+
+/*     42. Reversed Words
+function reverseWords(str){
+    return str.split(' ').reverse().join(' ')
+  } */
+
+/*         43. Calculate BMI
+function bmi(weight, height) {
+    result = weight / Math.pow(height, 2);
+    return result <= 18.5 ? 'Underweight'
+    : (result <= 25.0) ? 'Normal'
+    : (result <= 30.0) ? 'Overweight'
+    : 'Obese'
+    } */
+
+/*         44. Make UpperCase
+function makeUpperCase(str) {
+    return str.toUpperCase()
+    } */
+
+/*         45. Beginner - Reduce but Grow
+function grow(x){
+    return x.reduce((a, b) => a * b)
+} */
+
+/*     46. Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return distanceToPump <= mpg * fuelLeft; 
+}; */
+
+/*     47. Simple multiplication
+function simpleMultiplication(number) {
+    return number % 2 === 0 ? number * 8 : number * 9
+} */
+
+/*     48. Jenny's secret message
+function greet(name){
+if(name === "Johnny") return "Hello, my love!";
+else return "Hello, " + name + "!";
+} */
+
+/*     49. DNA to RNA Conversion
+function DNAtoRNA(dna) {
+    let arr = dna.split('');
+    let str = '';
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 'T') {
+        arr[i] = 'U';
+        str += arr[i];
+        } else {
+        str += arr[i]
+        }
+    }
+    return str
+    } */
+
+/*     // Super fast solution found
+function DNAtoRNA(dna) {
+return dna.split("T").join("U");
+} */
+
+/*         50. Is he gonna survive?
+function hero(bullets, dragons){
+    return bullets >= dragons * 2
+    } */
+
