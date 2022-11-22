@@ -66,6 +66,7 @@ Level: 8k
 58. Count the Monkeys!
 59. Convert a string to an array
 60. Total amount of points
+
 61. Rock Paper Scissors!
 62. Do I get a bonus?
 63. You Can't Code Under Pressure #1
@@ -74,3 +75,40 @@ Level: 8k
 66. Grasshopper - Personalized Message
 67. Area or Perimeter
 68. The Feast of Many Beasts
+69. Remove exclamation marks
+70. Thinkful - Logic Drills: Traffic light
+
+71. L1: Set Alarm
+72. Double Char
+73. Find the first non-consecutive number
+74. Removing Elements
+75. Beginner Series #4 Cockroach
+76. Quarter of the year
+77. Get Planet Name By ID
+78. Twice as old
+79. Unfinished Loop - Bug Fixing #1
+80. Basic variable assignment
+
+81. Will there be enough space?
+82. Keep up the hoop
+83. Third Angle of a Triangle
+84. Correct the mistakes of the character recognition software
+85. Count Odd Numbers below n
+86. Grasshopper - Check for factor
+87. Parse nice int from char problem
+88. Switch it Up!
+89. Find numbers which are divisible by given number
+90. All Star Code Challenge #18
+
+91. Welcome!
+92. Volume of a Cuboid
+93. Cat years, Dog years
+94. Is it a palindrome?
+95. Powers of 2
+96. To square(root) or not to square(root)
+97.  I love you, a little , a lot, passionately ... not at all
+98. Sum The Strings
+99. Sort and Star
+100. Expressions Matter
+
+8.2K.js

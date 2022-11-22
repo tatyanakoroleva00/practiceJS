@@ -331,3 +331,244 @@ function enough(cap, on, wait) {
         else 
             return Math.abs(placesLeft - wait)
 } */
+
+/*     82. Keep up the hoop
+function hoopCount (n) {
+    return n >= 10 ?  "Great, now move on to tricks" 
+    : "Keep at it until you get it"
+    } */
+
+/*     83. Third Angle of a Triangle
+function otherAngle(a, b) {
+    return 180 - Math.abs(a) - Math.abs(b)
+    } */
+
+    /* 84. Correct the mistakes of the character recognition software
+
+    function correct(string){
+        let arr = string.split('');
+        let arrNew = [];
+    
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === '5') {
+                arr[i] = 'S';
+                arrNew.push(arr[i]);
+            } else if (arr[i] === '1') {
+                arr[i] = 'I';
+                arrNew.push(arr[i]);
+            } 
+            else if (arr[i] === '0') {
+                arr[i] = 'O'; 
+                arrNew.push(arr[i]);
+            } else {
+                arrNew.push(arr[i]);
+            }
+        } return arrNew.join('');
+    }   */
+
+
+  /* 85. Count Odd Numbers below n
+function oddCount(n){
+return (n % 2 === 0) ? n / 2 : (n - 1) / 2
+} */
+
+   /*  //clever solution found
+    const oddCount = n => Math.floor(n/2) ;
+     */
+
+/*     86. Grasshopper - Check for factor
+function checkForFactor (base, factor) {
+    return base % factor === 0
+    } */
+
+/*     87. Parse nice int from char problem
+function getAge(inputString){
+    return +inputString[0]
+    } */
+
+/*      88. Switch it Up!
+function switchItUp(number){
+    switch(number) {
+        case 0: return 'Zero';
+        case 1: return 'One';
+        case 2: return 'Two';
+        case 3: return 'Three';
+        case 4: return 'Four';
+        case 5: return 'Five';
+        case 6: return 'Six';
+        case 7: return 'Seven';
+        case 8: return 'Eight';
+        case 9: return 'Nine';
+    }
+}
+ */
+    /* 89. Find numbers which are divisible by given number
+function divisibleBy(numbers, divisor){
+let arr = [];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % divisor === 0) {
+      arr.push(numbers[i]);
+    }
+  } return arr
+} */
+
+/* //clever solution found 
+function divisibleBy(numbers, divisor) {
+    return numbers.filter(n => n % divisor === 0)
+  } */
+
+/*     90. All Star Code Challenge #18
+function strCount(str, letter){ 
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === letter) count++
+    } return count
+    } */
+    
+/*     //clever solution 1
+function strCount(str, letter){  
+    return str.split(letter).length-1
+    } */
+
+    // clever solution found 2
+/* function strCount(str, letter){  
+    return str.split('').filter(c => c == letter).length;
+    } */
+    
+
+   /*  91. Welcome!
+function greet(language) {
+    let database = {
+        english: 'Welcome',
+        czech: 'Vitejte',
+        danish: 'Velkomst',
+        dutch: 'Welkom',
+        estonian: 'Tere tulemast',
+        finnish: 'Tervetuloa',
+        flemish: 'Welgekomen',
+        french: 'Bienvenue',
+        german: 'Willkommen',
+        irish: 'Failte',
+        italian: 'Benvenuto',
+        latvian: 'Gaidits',
+        lithuanian: 'Laukiamas',
+        polish: 'Witamy',
+        spanish: 'Bienvenido',
+        swedish: 'Valkommen',
+        welsh: 'Croeso'
+    };
+    return Object.keys(database).includes(language) 
+    ? database[language]
+    : database['english']
+} */
+
+   /*  // clever solution found
+    return language in welcomes ? welcomes[language] : welcomes.english; */
+
+
+/*     92. Volume of a Cuboid
+class Kata {
+    static getVolumeOfCuboid(length, width, height) {
+        return length * width * height
+    }
+    } */
+
+   /*  93. Cat years, Dog years
+var humanYearsCatYearsDogYears = function(humanYears) {
+    let arr = [], catYears, dogYears;
+    arr[0] = humanYears;
+    
+    if (humanYears === 1) {
+        catYears = 15;
+        dogYears = 15
+    } else if (humanYears === 2) {
+        catYears = 15 + 9;
+        dogYears = 15 + 9;
+    } else {
+        let years = humanYears - 2;
+        catYears = 15 + 9 + years * 4;
+        dogYears = 15 + 9 + years * 5;
+    }
+    arr[1] = catYears;
+    arr[2] = dogYears;
+    return arr
+    }
+ */      
+
+/*     94. Is it a palindrome?
+function isPalindrome(x) {
+    let a = x.toLowerCase(); 
+    let inversion = a.split('').reverse().join('');
+    return inversion === a
+    } */
+
+/*     95. Powers of 2
+function powersOfTwo(n){
+    let arr = [];
+    for (let i = 0; i <= n; i++) {
+        let a = Math.pow(2, i);
+        arr.push(a);
+    } return arr
+    }
+       */
+    /* 96. To square(root) or not to square(root)
+
+function squareOrSquareRoot(array) {
+let arr = [];
+for (let i = 0; i < array.length; i++) {
+    if (Number.isInteger(Math.sqrt(array[i]))) {
+        let a = Math.sqrt(array[i]);
+        arr.push(a);
+    } else {
+        arr.push(Math.pow(array[i], 2));
+    }
+} return arr
+} */
+
+/*         //clever solution found
+function squareOrSquareRoot(array) {
+    return array.map(x => {
+        const r = Math.sqrt(x);
+        return (r % 1 == 0) ? r : (x*x);
+    });  
+    }
+       */
+
+        /* 97.  I love you, a little , a lot, passionately ... not at all
+
+    function howMuchILoveYou(nbPetals) {
+        let obj = {
+               1: "I love you",
+               2: "a little",
+               3: "a lot",
+               4: "passionately",
+               5: "madly",
+               6: "not at all",
+             };
+       
+       for (let i = nbPetals ; i >= 1; i -= 6) {
+             if (i <= 6) return obj[i];
+           }
+     } */
+
+ /*     98. Sum The Strings
+function sumStr(a,b) {
+return String(+a + +b)
+} */
+
+/*     99. Sort and Star
+function twoSort(s) {
+    return s.sort()[0].split('').join('***')
+    } */
+
+ /*    100. Expressions Matter
+function expressionMatter(a, b, c) {
+    let one = a + b + c;
+    let two = a * b * c;
+    let three = (a + b) * c;
+    let four = a * (b + c);
+    let five = a + b * c;
+    let six = a * b + c;
+    
+    return Math.max(one, two, three, four, five, six)
+    } */
