@@ -112,3 +112,31 @@ Level: 8k
 100. Expressions Matter
 
 8.2K.js
+101. Difference of Volumes of Cuboids
+102. Student's Final Grade
+103. Is it even?
+104. Grasshopper - Messi goals function
+105. Filter out the geese
+106. What is between?
+107. Well of Ideas - Easy Version
+108. Grasshopper - Terminal game move function
+109. My head is at the wrong end!
+110. N-th Power
+111. Is the string uppercase?
+112. Grasshopper - Debug sayHello
+113. Stringy Strings
+114. Grasshopper - If/else syntax debug
+115. Training JS #7: if..else and ternary operator
+116. Filling an array (part 1)
+117. Function 2 - squaring an argument
+118. 5 without numbers !!
+119. Short Long Short
+120. What's the real floor?
+121. Super Duper Easy
+122. Find Multiples of a Number
+123. Get Nth Even Number
+124. Name Shuffler
+125. Exclamation marks series #1: Remove an exclamation mark from the end of string
+126. Reverse List Order
+127. Generate range of integers
+128. Lario and Muigi Pipe Problem

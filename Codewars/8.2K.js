@@ -109,9 +109,96 @@ function checkAlive (health) {
     return health > 0
     } */
 
-/*     15. Training JS #7: if..else and ternary operator
+/*     115. Training JS #7: if..else and ternary operator
 function saleHotdogs(n){
     return n < 5 ? 100 * n
             : n >= 10 ? 90 * n
             : 95 * n
+    } */
+
+/*     116. Filling an array (part 1)
+const arr = N => {
+    let a = [];
+    for (let i = 0; i < N; i++) {
+        a.push(i);
+    } return a
+    } */
+
+/*     117. Function 2 - squaring an argument
+function square(number) {
+    return number * number;
+    } */
+
+/*     118. 5 without numbers !!
+function unusualFive() {
+    let arr = ['five', 'five', 'five', 'five', 'five'];
+        return arr.length;
+    } */
+
+/*     119. Short Long Short
+function solution(a, b){
+    return a.length > b.length ? b + a + b : a + b + a 
+    } */
+      
+/*     120. What's the real floor?
+function getRealFloor(n) {
+    return n === 1 ? 0
+            : (n > 1 && n <= 13) ? n - 1
+            : (n > 13) ? n - 2 
+            : n
+    } */
+
+   /*  121. Super Duper Easy
+function problem(x){
+    return typeof x === 'number' ? x * 50 + 6 : 'Error'
+    } */
+
+  /*   122. Find Multiples of a Number
+function findMultiples(integer, limit) {
+    let arr = [];
+    
+    let i = 1;
+    while (integer * i <= limit) {
+        arr.push(integer * i); 
+        i++;
+    }
+    return arr;
+    } */
+
+/*     123. Get Nth Even Number
+function nthEven(n){
+return 2 * (n - 1);
+} */
+
+/*     124. Name Shuffler
+function nameSuffle(str){
+  return str.split(' ').reverse().join(' ')
+} */
+
+/*     125. Exclamation marks series #1: Remove an exclamation mark from the end of string
+function remove (string) {
+    return (string[string.length - 1] === '!') ? string.slice(0, -1) : string
+    } */
+
+/*     126. Reverse List Order
+function reverseList(list) {
+    return list.reverse()
+    } */
+
+
+/*     127. Generate range of integers
+function generateRange(min, max, step){
+    let arr = [];
+    for (let i = min; i <= max; i += step) {
+        arr.push(i);
+    } return arr;
+    } */
+
+/*     128. Lario and Muigi Pipe Problem
+function pipeFix(numbers){
+    let lastIndex = numbers[numbers.length - 1];
+    let arr = [];
+    for (let i = numbers[0]; i <= lastIndex; i++) {
+        arr.push(i);
+    } return arr;
     } */
