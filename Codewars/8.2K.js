@@ -89,3 +89,29 @@ function index(array, n){
 String.prototype.isUpperCase = function() {
     return this.toString() === this.toUpperCase()
     } */
+
+/*     112. Grasshopper - Debug sayHello
+function sayHello(name) {
+    return 'Hello, ' + name 
+    } */
+
+/*     113. Stringy Strings
+function stringy(size) {
+    let arr = [];
+    for (let i = 1; i <= size; i++) {
+        i % 2 === 0 ? arr.push(0) : arr.push(1)
+    } return arr.join('');
+    }
+     */
+
+/*     114. Grasshopper - If/else syntax debug
+function checkAlive (health) {
+    return health > 0
+    } */
+
+/*     15. Training JS #7: if..else and ternary operator
+function saleHotdogs(n){
+    return n < 5 ? 100 * n
+            : n >= 10 ? 90 * n
+            : 95 * n
+    } */
