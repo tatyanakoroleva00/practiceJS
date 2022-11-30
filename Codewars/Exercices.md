@@ -140,3 +140,17 @@ Level: 8k
 126. Reverse List Order
 127. Generate range of integers
 128. Lario and Muigi Pipe Problem
+129. Grasshopper - Terminal game combat function
+130. Vowel remover
+131. Capitalization and Mutability
+132. Merge two sorted arrays into one
+133. The Wide-Mouthed frog!
+134. A wolf in sheep's clothing
+135. Grasshopper - Debug
+136. Get character from ASCII Value
+137. Grasshopper - Basic Function Fixer
+138. Drink about
+139. Exclusive "or" (xor) Logical Operator
+140. Hello, Name or World!
+141. Reversing Words in a String
+142. Hex to Decimal

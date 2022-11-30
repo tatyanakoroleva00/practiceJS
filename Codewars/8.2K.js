@@ -287,3 +287,20 @@ function peopleWithAgeDrink(old) {
 function xor(a, b) {
     return (a != b)
     } */
+
+/*     
+function hello(name) {
+    if (Boolean(name) === false) return 'Hello, World!';
+    name = name.slice(0,1).toUpperCase() + name.slice(1).toLowerCase();
+    return 'Hello, ' + name + '!'
+    } */
+
+    /* 141. Reversing Words in a String
+function reverse(string){
+    return string.split(' ').reverse().join(' ')
+    } */
+
+/*     142. Hex to Decimal
+function hexToDec(hexString){
+    return parseInt(hexString, 16)
+    } */
