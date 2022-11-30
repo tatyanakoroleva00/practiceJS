@@ -202,3 +202,88 @@ function pipeFix(numbers){
         arr.push(i);
     } return arr;
     } */
+
+/*     129. Grasshopper - Terminal game combat function
+function combat(health, damage) {
+    return health - damage < 0 ? 0 : Math.abs(health - damage)
+    } */
+
+/*     130. Vowel remover
+function shortcut (str) {
+let arr = [];
+for (let k = 0; k < str.length; k++) {
+    let i  = str[k];
+    if (i != 'a' && i != 'e' && i != 'i' && i != 'o' && i != 'u') {
+    arr.push(i);
+    }
+} return arr.join('');
+}
+ */
+
+   /*  131. Capitalization and Mutability
+function capitalizeWord(word) {
+    return word[0].toUpperCase() + word.slice(1)
+    } */
+
+/*     132. Merge two sorted arrays into one
+function mergeArrays(arr1, arr2) {
+    if (arr1.length === 0 && arr2.length === 0) return [];
+    
+    let arr = arr1.concat(arr2);
+    arr = [...new Set(arr)];
+    return arr.sort(function(a, b) {return a - b})
+    } */
+
+/*         133. The Wide-Mouthed frog!
+function mouthSize(animal) {
+    return animal == 'alligator' ? 'small' : 'wide'
+    } */
+
+/*         134. A wolf in sheep's clothing
+function warnTheSheep(queue) {
+
+    queue = queue.reverse();
+    let wolfIndex = queue.indexOf('wolf');
+    
+    if (wolfIndex + 1 == 1) return "Pls go away and stop eating my sheep"; 
+    else if (wolfIndex + 1 != 1) return ("Oi! Sheep number " + wolfIndex + "! You are about to be eaten by a wolf!")
+    } */
+
+/*     135. Grasshopper - Debug
+function weatherInfo (temp) {
+    var c = convertToCelsius(temp);
+    if (c < 0)
+        return (c + " is freezing temperature")
+    else
+        return (c + " is above freezing temperature")
+    }
+    
+    function convertToCelsius (temperature) {
+    var celsius = (temperature - 32) * (5/9)
+    return celsius
+    } */
+/* 
+    136. Get character from ASCII Value
+function getChar(c){
+    let char = String.fromCharCode(c);
+    return char
+    } */
+
+/*     137. Grasshopper - Basic Function Fixer
+function addFive(num) {
+    return num + 5
+    } */
+
+
+/*     138. Drink about
+function peopleWithAgeDrink(old) {
+    return old < 14 ? "drink toddy"
+    : old < 18 ? "drink coke"
+    : old < 21 ? "drink beer"
+    : "drink whisky"
+    }; */
+
+/*     139. Exclusive "or" (xor) Logical Operator
+function xor(a, b) {
+    return (a != b)
+    } */
