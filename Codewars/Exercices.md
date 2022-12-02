@@ -154,3 +154,11 @@ Level: 8k
 140. Hello, Name or World!
 141. Reversing Words in a String
 142. Hex to Decimal
+143. Triple Trouble
+144. Simple Fun #1: Seats in Theater
+145. Grasshopper - Messi Goals
+146. Regular Ball Super Ball
+147. How many lightsabers do you own?
+148. Multiplication table for number
+149. Is this my tail?
+150. FIXME: Replace all dots

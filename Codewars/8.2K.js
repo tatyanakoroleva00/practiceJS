@@ -304,3 +304,56 @@ function reverse(string){
 function hexToDec(hexString){
     return parseInt(hexString, 16)
     } */
+
+/*     143. Triple Trouble
+function tripleTrouble(one, two, three){
+    let str = '';
+    
+    for (let i = 0; i < one.length; i++) {
+        str += one[i] + two[i] + three[i];
+    } return str
+    } */
+
+/*     144. Simple Fun #1: Seats in Theater
+function seatsInTheater(nCols, nRows, col, row) {
+    return (nCols - col + 1) * (nRows - row) 
+    } */
+
+/*     145. Grasshopper - Messi Goals
+var laLigaGoals = 43;
+var championsLeagueGoals = 10;
+var copaDelReyGoals = 5;
+
+var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals; */
+
+/*     146. Regular Ball Super Ball
+var Ball = function(ballType) {
+    return ballType ? this.ballType = 'super' : this.ballType = 'regular'
+} */
+
+/*     147. How many lightsabers do you own?
+function howManyLightsabersDoYouOwn(name) {
+    return name === 'Zach' ? 18 : 0
+    } */
+
+/*     148. Multiplication table for number
+function multiTable(number) {
+    let str = '';
+    for (let i = 1; i < 11; i++) {
+        if (i === 10) { 
+            str += `${i} * ${number} = ${i * number}`;
+        } else {
+            str += `${i} * ${number} = ${i * number}\n`;
+        }
+    } return str
+    } */
+/* 
+        149. Is this my tail?
+function correctTail(body, tail){
+    return body.slice(-1) === tail ? true : false
+} */
+
+/*     150. FIXME: Replace all dots
+var replaceDots = function(str) {
+    return str.split('.').join('-')
+    } */
