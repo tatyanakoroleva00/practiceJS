@@ -162,3 +162,35 @@ Level: 8k
 148. Multiplication table for number
 149. Is this my tail?
 150. FIXME: Replace all dots
+151. Bin to Decimal
+152. No zeros for heros
+153. Training JS #2: Basic data types--Number
+154. Plural
+155. Enumerable Magic #25 - Take the First N Elements
+156. String Templates - Bug Fixing #5
+157. Find the position!
+158. Holiday VIII - Duty Free
+159. Training JS #4: Basic data types--Array
+160. String cleaning
+161. Convert to Binary
+162. Pre-FizzBuzz Workout #1
+163. Multiple of index
+164. Fix your code before the garden dies!
+165. Take the Derivative
+166. Grasshopper - Function syntax debugging
+167. Alan Partridge II - Apple Turnover
+168. How old will I be in 2099?
+169. L1: Bartender, drinks!
+170. Enumerable Magic - Does My List Include This?
+171. Find the Remainder
+172. Grasshopper - Array Mean
+173. Add Length
+174. Training JS #5: Basic data types--Object
+175. Surface Area and Volume of a Box
+176. Determine offspring sex based on genes XX and XY chromosomes
+177. No Loops 2 - You only need one
+178. Welcome to the City
+179. Sum of differences in array
+180. Do you speak "English"?
+181. Return the day
+
