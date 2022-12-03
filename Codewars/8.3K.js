@@ -111,3 +111,161 @@ function stringClean(s){
 function toBinary(n){
     return Number(n.toString(2))
     } */
+
+    /* 162. Pre-FizzBuzz Workout #1
+function preFizz(n) {
+    let arr = [];
+    for (let i = 1; i <= n; i++) {
+        arr.push(i);
+    } return arr
+    }
+ */
+
+/*     163. Multiple of index
+function multipleOfIndex(array) {
+    let arr = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % i === 0) arr.push(array[i]);
+    } return arr
+    } */
+
+    /* Great Idea 
+    function multipleOfIndex(array) {
+        return array.filter((num, i) => num % i === 0);
+      } */
+
+/*       164. Fix your code before the garden dies!
+function rainAmount(mm){
+if (mm < 40) {
+        return "You need to give your plant " + (40 - mm) + "mm of water"
+} else {
+        return "Your plant has had more than enough water for today!"
+};
+} */
+
+   /*  165. Take the Derivative
+function derive(coefficient,exponent) {
+    return coefficient * exponent + 'x^' + (exponent - 1)
+    } */
+
+   /*  166. Grasshopper - Function syntax debugging
+function main(verb, noun) {
+    return verb + noun
+    } */
+
+/*     167. Alan Partridge II - Apple Turnover
+function apple(x){
+    return (Number(x * x) > 1000) ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.'
+    } */
+
+/*     168. How old will I be in 2099?
+function  calculateAge(a, b) {
+    if (b - a === 1) return 'You are 1 year old.'
+    else if (a - b === 1) return 'You will be born in 1 year.'
+    else if (b - a > 1) return 'You are ' + (b - a) + ' years old.'
+    else if (a - b > 1) return 'You will be born in ' + (a - b) + ' years.'
+    else if (a === b) return "You were born this very year!"
+    } */
+
+
+/*     169. L1: Bartender, drinks!
+function getDrinkByProfession(param){
+    if (param.toLowerCase() === 'jabroni') return "Patron Tequila";
+    else if (param.toLowerCase() === 'school counselor') return	"Anything with Alcohol";
+    else if (param.toLowerCase() === 'programmer') return "Hipster Craft Beer";
+    else if (param.toLowerCase() === 'bike gang member') return "Moonshine";
+    else if (param.toLowerCase() === 'politician') return "Your tax dollars";
+    else if (param.toLowerCase() === 'rapper') return "Cristal";
+    else return "Beer"
+    } */
+
+/*     170. Enumerable Magic - Does My List Include This?
+function include(arr, item){
+    return arr.includes(item)
+    } */
+
+/*     171. Find the Remainder
+function remainder(n, m){
+    return m > n ? m % n : n % m
+    } */
+
+/*     172. Grasshopper - Array Mean
+var findAverage = function (nums) {
+    let sum = 0;
+    nums.map(el => {
+        sum += el; 
+        return sum
+    });
+    return sum / nums.length
+    } */
+
+   /*  Interesting result found
+    const findAverage = nums => nums.reduce((a, b) => a + b) / nums.length;) */
+
+/*     173. Add Length
+function addLength(str) {
+    return str.split(' ').map(el => el + ' ' + el.length)
+    } */
+
+/*     174. Training JS #5: Basic data types--Object
+function animal(obj){
+    return 'This ' + obj.color + ' ' + obj.name + ' has ' + obj.legs + ' legs.'
+    } */
+
+/*     175. Surface Area and Volume of a Box
+function getSize(width, height, depth) {
+    let totalSurfaceArea = (depth * width + depth * height + width * height) * 2;
+    let volume = width * height * depth;
+    let arr = [];
+        arr[0] = totalSurfaceArea; 
+        arr[1] = volume;
+    return arr
+    } */
+      
+
+/*     176. Determine offspring sex based on genes XX and XY chromosomes
+function chromosomeCheck(sperm) {
+    return sperm.includes('Y') ? "Congratulations! You're going to have a son."
+        : "Congratulations! You're going to have a daughter."
+    } */
+
+/*     177. No Loops 2 - You only need one
+function check(a,x){
+    return a.includes(x)
+    }; */
+
+/*     178. Welcome to the City
+function sayHello( name, city, state ) {
+    return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!` 
+    } */
+
+/*     179. Sum of differences in array
+function sumOfDifferences(arr) {
+    if (arr.length === 0 || arr.length === 1) return 0; 
+    else {
+        arr = arr.sort(function(a,b){return a - b});
+        let sum = 0;
+        for (let i = 1; i < arr.length; i++) {
+        sum += arr[i] - arr[i - 1];
+        } return sum
+    }
+    } */
+      
+/*     180. Do you speak "English"?
+function spEng(sentence){
+    return sentence.toLowerCase().includes('english')
+    } */
+
+/*     181. Return the day
+function whatday(num) { 
+    let week = {
+        1: "Sunday",
+        2: "Monday",
+        3: "Tuesday",
+        4: "Wednesday",
+        5: "Thursday",
+        6: "Friday",
+        7: "Saturday"
+    }; 
+        return (num <= 7 && num >= 1 ) ? week[num] : "Wrong, please enter a number between 1 and 7"
+    } */
