@@ -193,4 +193,8 @@ Level: 8k
 179. Sum of differences in array
 180. Do you speak "English"?
 181. Return the day
-
+182. Localize The Barycenter of a Triangle
+183. CSV representation of array
+184. Pythagorean Triple
+185. The 'if' function
+186. Training JS #10: loop statement --for

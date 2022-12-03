@@ -269,3 +269,37 @@ function whatday(num) {
     }; 
         return (num <= 7 && num >= 1 ) ? week[num] : "Wrong, please enter a number between 1 and 7"
     } */
+
+/*     182. Localize The Barycenter of a Triangle
+function barTriang(p1, p2, p3){
+  return [+((p1[0]+p2[0]+p3[0])/3).toFixed(4),
+          +((p1[1]+p2[1]+p3[1])/3).toFixed(4)];
+} */
+
+/*     183. CSV representation of array
+function toCsvText(array) {
+   return array.join('\n');
+}
+
+  /*   184. Pythagorean Triple
+function isPythagoreanTriple(integers) {
+  let arr = integers.sort((a, b) => a - b);
+  arr[0] = Math.pow(arr[0], 2);
+  arr[1] = Math.pow(arr[1], 2);
+  arr[2] = Math.pow(arr[2], 2);
+  return (arr[0] + arr[1] === arr[2])
+} */
+
+/*     185. The 'if' function
+function _if(bool, func1, func2) {
+    return bool ? func1() : func2()
+    } */
+
+/*     186. Training JS #10: loop statement --for
+function pickIt(arr){
+    var odd=[],even=[];
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] % 2 === 0 ? even.push(arr[i]) : odd.push(arr[i]);
+    }
+    return [odd,even];
+    } */
