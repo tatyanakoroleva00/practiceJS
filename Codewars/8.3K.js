@@ -303,3 +303,24 @@ function pickIt(arr){
     }
     return [odd,even];
     } */
+
+/* 187. How many stairs will Suzuki climb in 20 years?
+function stairsIn20(s){
+    let sum = 0;
+    for (let i = 0; i < 7; i++) {
+        for (let elem of s[i]) {
+            sum += elem;
+        }
+    } return sum * 20
+    } */
+
+/*     188. Exclamation marks series #2: Remove all exclamation marks from the end of sentence
+function remove (string) {  
+    let i = string.length - 1;
+        while (string[i] === '!') {
+        i--;
+        }
+        let result = string.substring(0, i+1);
+        return result
+    } */
+

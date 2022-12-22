@@ -198,3 +198,5 @@ Level: 8k
 184. Pythagorean Triple
 185. The 'if' function
 186. Training JS #10: loop statement --for
+187. How many stairs will Suzuki climb in 20 years?
+188. Exclamation marks series #2: Remove all exclamation marks from the end of sentence
