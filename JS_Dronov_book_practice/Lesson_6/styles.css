@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+section, nav {
+    display: flex;
+    justify-content: center;
+}
+section {
+    height: 300px;
+    margin-top: 50px;
+}
+section img {
+    display: block;
+    height: 300px;
+}
+nav {
+    width: 50%;
+    margin: 30px auto auto;
+}
+nav div {
+    width: 20pt;
+    height: 20pt;
+    font-size: 20pt;
+    line-height: 20pt;
+    text-align: center;
+    margin: auto 10px;
+    border: thin solid grey;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+nav div.active {
+    color: white;
+    background-color: black;
+    cursor: default;
+}
+
+#preview {
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    background-color: left/contain no-repeat;
+    display: none;
+}
+#preview.active {
+    display:block;
+}

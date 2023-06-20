@@ -1,0 +1,23 @@
+/* .container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+ }
+button {
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+ } */
+
+ ul {
+	padding: 30px;
+	border: 1px solid red;
+}
+li {
+	list-style-type: none;
+	margin-bottom: 20px;
+	border: 1px dashed black;
+} 
