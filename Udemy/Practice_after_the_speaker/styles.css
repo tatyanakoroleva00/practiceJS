@@ -89,3 +89,26 @@
     background-color: rgb(41, 203, 252);
 }
 
+.modal {
+    width: 300px;
+    height: 300px;
+    z-index: 1000;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+.button-close {
+    background-color: rgba(196, 196, 196, 0.384);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
